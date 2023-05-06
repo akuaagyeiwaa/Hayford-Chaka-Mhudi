@@ -1,11 +1,11 @@
 h1{color:blue; font-family:helvetica; }
 
-h2{color:pink;}
-h4{color:pink;
+h2{color: #C100C1;}
+h4{color: #C100C1;
 background-color:red;}
 
 
-h3{color: yellow;}
+h3{color: #C100C1;}
 ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden;background color:#FFFFFF;}
 li {float: left;}
 li a {display: block; color: black; text-align: center;padding: 14px 16px;text-decoration:none;}
@@ -13,5 +13,6 @@ li a {display: block; color: black; text-align: center;padding: 14px 16px;text-d
 li a hover {background-color: #000080;}
 .active {background-color: #000080;}
 body {
-  background-color: lightblue;
+  background-color: #EAFBFF;
+  font-size: 14px;
 }
