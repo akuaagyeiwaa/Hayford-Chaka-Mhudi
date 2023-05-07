@@ -22,4 +22,12 @@ body {
   background: linear-gradient(45deg, #410358, #4700bc);
   display: flex;
   align-items:center;
-  justify-content:center:
+  justify-content:center;
+}
+.pagination{
+  display: flex;
+  align-items:center;
+  background: #fff;
+  color: #383838;
+  padding: 10px 40px;
+  border-radius: 6px;
