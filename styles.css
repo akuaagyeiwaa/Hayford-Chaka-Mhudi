@@ -48,7 +48,7 @@ ul li{
     line -height: 45px;
     cursor: pointer;
 }
-.btn1, .btn{
+.btn, .btn{
   display: inline-flex;
   align-items: center;
   font-size: 22px;
