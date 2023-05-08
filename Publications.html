@@ -24,7 +24,7 @@ This project may not have been possible without the insight and guildiance of Pr
  NB:all the information on my colleaques were gathered from <a href="https://www.unl.edu/">University of Nebraska, Lincoln.
 </p> 
  
- <!DOCTYPE html>
+   <!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -51,110 +51,86 @@ div.desc {
 }
 
 .responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
 
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
 
-  <div class="responsive">                                                                                        
- <div class="gallery">
-  <a target="_blank" href="img_wisnicki.jpg">
-    <img src="wisnicki.jpg" alt="Mountains" width="250" height="250">
-  </a>
-  <div class="desc">Adrian S. Wisnicki is a Faculty Fellow of the Center for Digital Research in the Humanities and the Digital Humanities Program Coordinator in the College of Arts and Sciences at the University of Nebraska–Lincoln.
-</div>
-</div>
-  
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Image Gallery</h2>
+
+<h4>Resize the browser window to see the effect.</h4>
+
 <div class="responsive">
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="erin-lyette.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc">Bahamian native, Lyette Erin, is an English Literature M.A. student specializing in Literary and Cultural Studies. She graduated with a B.A. in English Literature and Publishing with a minor in Small Business Management from Hastings College. Her research interests include book design, fat studies, print culture, and digital humanities. At UNL, she works as a research assistant in the Willa Cather Archive.
- </div>
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
 </div>
 
-  <div class="responsive">
+
+<div class="responsive">
   <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="Goh Jun Yi.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc">Jun is a PhD History major and an aspiring D.H scholar</div>
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
 </div>
- 
- <div class="responsive">
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="karmen.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc"> Karmen Browitt</div>
-</div>
- 
-   <div class="responsive">
-   <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="Hester.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc">Trey is a senior in computer science, soft spoken, humble and a complete gentleman. Thanks a lot Hester. </div>
-</div>
-                                                                  
- <div class="responsive">   
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="jeff.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc">Jeff Hill is an English M. A. student studying creative writing at the University of Nebraska-Lincoln, where he previously obtained a B. S. in education and a certificate in teaching of writing. He is a former high school writing teacher and current faculty member of the Writer's Hotel writing conference in New York City. As a graduate research assistant for the Archive, Jeff is working as a research assistant on the NEH-funded grant investigating Whitman's mid-career journalism</P>
-  . </div>
-</div>
-         
-  <div class="responsive">                                                                
+
+<div class="responsive">
   <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="maitra-arka.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc">A graduate of both undergraduate and graduate programs from Presidency University, Kolkata, with majors in English Literature, Arka Maitra is primarily interested in Literary and Cultural studies pertaining to early Colonial and Anglophone literature and Postcolonial theory.
-  </P>
-  . </div>
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
 </div>
-   
-    <div class="responsive">
-    <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="Andrew.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc">Andrew Johnson.</P>
-  . </div>
-</div>
-                   
-   <p>
- <div class="responsive">
- <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="Tina Lee.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc"> Tina  Lee.</P>
-  . </div>
-</div>
- 
-<div class="responsive">                                                                
- <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="Andrew.jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc"> Thara is a senior in English and Spanish, calm, and always ready to help. Thank you Thara.</P>
-  . </div>
-</div>
-  
- <div class="responsive">
+
+<div class="responsive">
   <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src=".jpg" alt="Cinque Terre" width="250" height="250">
-  </a>
-  <div class="desc"> Makena is a  second year Ph.D. student, and a graduate from East Tennessee State University in May of 2021 with a Masters in Sociology. During masters’ she gained experience in survey research methods and qualitative interviews. In the summer of 2021, She was an intern at IPSOS working with their Knowledge Panel building surveys and working on polling forensics for the 2020 Presidential election. Now in her first year at UNL she is working on her quantitative methods and adjusting to life in Lincoln. One thing I admire about Makena, she was always drinking water and I guess that I needed to improve my water drinking skills too. Thank you Makena. 
-  .</P>
-  . </div>
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
 </div>
- <div class="clearfix"></div>
+
+<div class="clearfix"></div>
 
 <div style="padding:6px;">
-                                                                 
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+</body>
+</html>
+
+
+                   
   
   
                                                                  
