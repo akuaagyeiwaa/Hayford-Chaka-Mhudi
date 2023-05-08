@@ -24,21 +24,32 @@ This project may not have been possible without the insight and guildiance of Pr
  NB:all the information on my colleaques were gathered from <a href="https://www.unl.edu/">University of Nebraska, Lincoln.
 </p> 
  <html>
-<div class="gallery">
-  <img src="image1.jpg" alt="Image 1">
-  <img src="image2.jpg" alt="Image 2">
-  <img src="image3.jpg" alt="Image 3">
-</div>
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
-.gallery img {
-  width: 33.33%;
-  padding: 10px;
-  box-sizing: border-box;
+div.gallery:hover {
+  border: 1px solid #777;
 }
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
 
                                                                                           
  <div class="gallery">
