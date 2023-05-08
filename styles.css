@@ -12,4 +12,10 @@ li a {display: block; color: black; text-align: center;padding: 14px 16px;text-d
 li a hover {background-color: #000080;}
 .active {background-color: #000080;}
 
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
   
