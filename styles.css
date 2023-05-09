@@ -1,6 +1,7 @@
 body{background-color:#e6ffff;}
 h1{color:blue; font-family:helvetica; }
 h1 {
+  width:100%;
   text-align: center;
 }
 
