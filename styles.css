@@ -1,7 +1,7 @@
 body{background-color:#e6ffff;}
 h1{color:blue; font-family:helvetica;width:100%;text-align: center;}
-h2{color:#bf00ff;font-size:20px;}
-h3{color:#1B5B2D;font-size:46px}
+h2{color:#bf00ff; font-family:helvetica; font-size: 20px;}
+h3{color:#1B5B2D; font-familty:helvetica; font-size: 46px}
 h4{color:#B22222;}
 ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden;background color:#FFFFFF;}
 li {float: left;}
