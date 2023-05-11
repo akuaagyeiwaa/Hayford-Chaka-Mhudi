@@ -6,11 +6,11 @@ h1 {
 }
 
 
-h2{color:#bf00ff;font.size:20;}
+h2{color:#bf00ff;font.size:20px;}
 h4{color:#B22222;}
 
 
-h3{color: #C100C1;font.size:20px;} 
+h3{color: #C100C1;font.size:36px;} 
 ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden;background color:#FFFFFF;}
 li {float: left;}
 li a {display: block; color: black; text-align: center;padding: 14px 16px;text-decoration:none;}
