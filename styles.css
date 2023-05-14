@@ -2,7 +2,7 @@ body{background-color:#e6ffff;}
 h1{color:blue; font-family:helvetica;width:100%;text-align: center;}
 h2{color:#bf00ff; font-family:helvetica; font-size: 30px;}
 h3{color:#1B5B2D; font-familty:helvetica; font-size: 30px;}
-p{color:#1B5B2D; font-family: helvetica; font-size: 10px;}
+p{color:#1B5B2D; font-family: helvetica; font-size: 20px;}
 .two{color:#bf00ff; font-family: helvetica; font-size: 10px;}
 ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden;background color:#FFFFFF;}
 li {float: left;}
